@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Contact Us </title>
+  <style>
+  table, td, th {
+     border: 1px solid black;
+     padding: 3px;
+     font-family: serif, Times;
+    font-size:14px;
+  }
+  th {
+     background-color:  blue;
+  }
+  td {
+     background-color: aqua;
+  }
+    </style>
+<meta charset="UTF-8">
+<meta name="author" content="Randy Depner">
+<meta name="description" content="Contact Us">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h2>Contact Us</h2>
+  <img src="./images/building.jpg" alt="Razzle Dazzle" width=200 height=200/>
+  <h3>Location</h3> <!--don't actually have a phone number-->
+  <address>
+  Razzle Dazzle<br />
+  9000 Leaf Dr. Billing, MT<br />
+  Biiling, MT 12345 <br />
+  (800)111-1111
+  </address>
+  <br />
+  Email: <br />
+  <a href="mailto:Ripperdoc@Razzle-Dazzle.com">Ripperdoc@Razzle-Dazzle.com</a>
+  <br />
+  <br />
+<!--table for hours-->
+  <table width="100%">
+    <caption>Hours of Operation</caption>
+    <tr>
+      <th></th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+      <th scope="col">Thursday</th>
+      <th scope="col">Friday</th>
+      <th scope="col">Weekends</th>
+    </tr>
+    <tr>
+      <th scope="row">Hours</th>
+      <td> 7:00am-10:00pm </td>
+      <td> 7:00am-10:00pm </td>
+      <td> 7:00am-10:00pm </td>
+      <td> 7:00am-10:00pm </td>
+      <td> 7:00am-10:00pm </td>
+      <td> 9:00am-4:00pm </td>
+    </tr>
+  </table>
+  <br />
+  <form action="http://www.example.com/subscribe.php" method="get" id="subscribe-form" class="basic-forms">
+      <iput type="text" name="email" id="email-input"/>
+      <fieldset>
+        <legend>Account Creation</legend>
+        <label>
+          <p>Email Address: <input type="text" name="email" placeholder="Ripperdoc@Razzle-Dazzle.com"/> </p>
+          <p> Password: <input type="password" name="password" id="user-password" placeholder="example123"/> </p>
+            Comments or Concerns: <br />
+            <textarea name="comments" id="comment-textarea">Enter up to 500 characters...</textarea>
+          </p>
+
+          I Want to Subscribe to...
+          <br />
+          <input type="checkbox" name="subscribe" value="newsletter" /> Newsletter
+          <br />
+          <input type="checkbox" name="subscribe" value="coupons/sales" /> Coupons & Sales
+          <br />
+          <input type="checkbox" name="subscribe" value="Phone/email" /> Phone/Email
+          <br />
+          <input type="checkbox" name="subscribe" value="none" /> None
+          <br />
+          <br />
+          <input type="submit" value="Submit" />
+        </label>
+      </fieldset>
+
+  </form>
+
+</body>
+</html>
