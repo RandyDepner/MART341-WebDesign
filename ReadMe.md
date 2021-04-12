@@ -1,5 +1,5 @@
-1.) I have come across subscriptions, email/number sign ups, and even newsletters. Newsletters serve as small tiny advervisments. Subscriptions/ email/ phone numbers are all basically the same, you get a notification about when a new product is out or if there is a hot sale on an item.
+1.) My imaginary client is me. I wanted my sight needs to come off cool and yet fun to the viewers eyes. I wanted it to display some of my fun creations so they maybe someone might want to contact me for a commission.
 
-2.) A Text defines a one-line text input field.  A Checkbox selection defines checkbox's which allows select one option. And lastly, A button input Defines a simple push button, which can be programmed to perform a task on an event.
+2.)Mobile first design is a design strategy that says when you create a website or app, you should start sketching and prototyping the smallest screen first and work your way up to larger screens. Essentially, it’s about delivering the right user experience to the right device.
 
-3.) My work cycle for this assignment was just placing the code and double checking my final product to see if everything came out correctly.
+3.) I had problems with images showing up again but I quickly fixed that. I also had over thought who my client should be so I just choose myself.
